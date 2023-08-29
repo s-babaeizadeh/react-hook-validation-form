@@ -1,14 +1,13 @@
-import React from "react"
+import React from 'react';
 
-import "./App.css"
-import HookForm from "./HookForm"
+import HookForm from './HookForm';
 
 function App() {
   return (
-    <div style={{marginTop:"150px"}}>
+    <div style={{ marginTop: '150px' }}>
       <h2>React Hook Form</h2>
       <HookForm />
     </div>
-  )
+  );
 }
-export default App
+export default App;
